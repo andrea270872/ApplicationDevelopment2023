@@ -21,7 +21,7 @@ namespace Chpt6
         {
             if (balance - amount -50 > 0)
             {
-                balance -= amount -50;
+                balance = balance - amount - 50;
                 return "Operation sucessful. It costed you 50kr to withdraw.";
             }
             return "Operation failed - not enough founds";
@@ -33,12 +33,8 @@ namespace Chpt6
         // no cost when taking money from a CheckingAcc.
         public string Withdraw(int amount)
         {
-            if (balance - amount > 0)
-            {
-                balance -= amount;
-                return "Operation sucessful";
-            }
-            return "Operation failed - not enough founds";
+            balance -= amount;
+            return "Operation sucessful";
         }
     }
 
