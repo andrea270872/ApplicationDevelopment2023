@@ -1,0 +1,7 @@
+﻿
+namespace RPGCharacters
+{
+    class Animal
+    {
+    }
+}
