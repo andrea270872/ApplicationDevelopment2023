@@ -1,0 +1,13 @@
+- class Human
+	name, xp, hp
+	String toString()
+- class Dwarf
+	name, xp, hp
+	String toString()
+- class Werewolf
+	name, xp, hp
+	String toString()
+
+- perhaps a base class Character on top of the 3 classes
+
+- main in its own class
